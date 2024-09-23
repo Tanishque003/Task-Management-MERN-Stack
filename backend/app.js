@@ -11,7 +11,7 @@ const profileRoutes = require("./routes/profileRoutes");
 app.use(express.json());
 app.use(cors(
     {
-        origin: ["https://task-management-system-frontend-five.vercel.app"],
+        origin: ["https://task-management-system-frontend-five.vercel.app/api"],
         methods: ["POST", "GET"],
         credentials: true
     }
